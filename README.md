@@ -101,7 +101,7 @@ Smart_Contract_QA_Assistant.ipynb
 ├── Step 5  — Component Initialization
 ├── Step 6  — Pipeline Testing (unit tests + guardrail tests)
 ├── Step 7  — Gradio UI + LangServe API Launch
-└── Step 8  — Evaluation Pipeline & Report      ← NEW
+└── Step 8  — Evaluation Pipeline & Report  
 ```
 
 ---
@@ -328,4 +328,5 @@ All AI-generated answers should be verified by a qualified legal professional be
 
 ---
 
-*Built by ENG. Asser Almasry using Gemini API · ChromaDB · LangChain · LangServe · Gradio*
+*Built by **ENG. Asser Almasry** using Gemini API · ChromaDB · LangChain · LangServe · Gradio*
+*Special Thanks to **ENG. Sara Gamil ITI***
