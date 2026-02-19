@@ -66,6 +66,7 @@ The system includes:
 │    Retrieval Metrics  ·  Answer Quality  ·  Report          │
 └─────────────────────────────────────────────────────────────┘
 ```
+<img width="3120" height="452" alt="download" src="https://github.com/user-attachments/assets/2be58e2c-7fa5-4e2c-98d1-9c0faa445f70" />
 
 ---
 
@@ -327,4 +328,4 @@ All AI-generated answers should be verified by a qualified legal professional be
 
 ---
 
-*Built with ❤️ using Gemini API · ChromaDB · LangChain · LangServe · Gradio*
+*Built by ENG. Asser Almasry using Gemini API · ChromaDB · LangChain · LangServe · Gradio*
