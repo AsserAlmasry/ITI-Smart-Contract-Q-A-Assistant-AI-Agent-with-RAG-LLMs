@@ -314,9 +314,6 @@ A full evaluation report is printed in the notebook and optionally saved to `/co
 - **Template placeholders:** Documents with unfilled placeholders (e.g., `[NAME]`, `[DATE]`) will return those placeholders in answers — this is correct behaviour, not a bug.
 - **Context window:** Only the top-5 most similar chunks are passed to Gemini. Very long contracts may require increasing `top_k` or reducing chunk size.
 - **Local embeddings:** `all-MiniLM-L6-v2` is fast and free but less powerful than Gemini's embedding API for domain-specific legal text.
-- **No persistent storage:** ChromaDB runs in-memory in Colab. All indexed documents are lost when the runtime disconnects.
-- **Colab timeouts:** Free Colab sessions disconnect after ~90 minutes of inactivity. Re-run Steps 2–8 after reconnecting.
-- **LangServe port:** Port 8001 is only accessible from within the Colab runtime. To expose it publicly, use `ngrok` or Colab's port forwarding.
 - **Single-document focus:** The system is optimised for one document at a time. Uploading multiple contracts simultaneously may reduce answer precision due to cross-document retrieval.
 
 ---
@@ -329,4 +326,5 @@ All AI-generated answers should be verified by a qualified legal professional be
 ---
 
 *Built by **ENG. Asser Almasry** using Gemini API · ChromaDB · LangChain · LangServe · Gradio*
+
 *Special Thanks to **ENG. Sara Gamil ITI***
